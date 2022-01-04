@@ -95,7 +95,23 @@ h1 {
 .img-box {
   display: none;
 }
-@media (min-width: 56em) {
+
+@media screen and (max-width: 768px) {
+  .image-div .mobile {
+    transform: translate(88%, -6.8rem);
+  }
+}
+@media screen and (max-width: 320px) {
+  .image-div .mobile {
+    transform: translate(6%, -6.8rem);
+  }
+}
+@media screen and (max-width: 480px) {
+  .image-div .mobile {
+    transform: translate(13%, -6.8rem);
+  }
+}
+@media screen and (min-width: 56rem) {
   .main {
     width: 52rem;
     height: 25rem;
